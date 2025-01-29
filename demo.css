@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    font-style: italic;
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    font-size : 20px;
+    list-style-type: none;
+    height: 65px;
+    background: black;
+    color: whitesmoke;
+}
+
+
+nav ul li{
+    padding: 1.5rem;
+}
+
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+
+.brand img{
+    height: 23px;
+    width: 22px;
+}
